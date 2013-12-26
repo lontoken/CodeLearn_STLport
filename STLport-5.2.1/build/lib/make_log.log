@@ -1,0 +1,428 @@
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\dll_main.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\dll_main.cpp
+dll_main.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\fstream.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\fstream.cpp
+fstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\strstream.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\strstream.cpp
+strstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\sstream.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\sstream.cpp
+sstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\ios.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\ios.cpp
+ios.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\stdio_streambuf.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\stdio_streambuf.cpp
+stdio_streambuf.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\istream.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\istream.cpp
+istream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\ostream.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\ostream.cpp
+ostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\iostream.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\iostream.cpp
+iostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\codecvt.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\codecvt.cpp
+codecvt.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\collate.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\collate.cpp
+collate.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\ctype.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\ctype.cpp
+ctype.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\monetary.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\monetary.cpp
+monetary.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\num_get.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\num_get.cpp
+num_get.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\num_put.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\num_put.cpp
+num_put.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\num_get_float.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\num_get_float.cpp
+num_get_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\num_put_float.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\num_put_float.cpp
+num_put_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\numpunct.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\numpunct.cpp
+numpunct.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\time_facets.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\time_facets.cpp
+time_facets.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\messages.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\messages.cpp
+messages.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\locale.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\locale.cpp
+locale.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\locale_impl.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\locale_impl.cpp
+locale_impl.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\locale_catalog.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\locale_catalog.cpp
+locale_catalog.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\facets_byname.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\facets_byname.cpp
+facets_byname.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\complex.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\complex.cpp
+complex.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\complex_io.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\complex_io.cpp
+complex_io.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\complex_trig.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\complex_trig.cpp
+complex_trig.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\string.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\string.cpp
+string.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\bitset.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\bitset.cpp
+bitset.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\allocators.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\allocators.cpp
+allocators.cpp
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\c_locale.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\c_locale.c
+c_locale.c
+	cl /nologo /W4 /EHsc /Zm800  /GL /MD /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\shared\cxa.o /Fdobj\vc10\shared\stlport_vc10.5.2.pdb ../../src\cxa.c
+cxa.c
+	link /fixed:no /nologo /incremental:no /debug /pdb:obj\vc10\shared\stlport_vc10.5.2.pdb  /LTCG /dll  /version:5.2 /out:obj\vc10\shared\stlport_vc10.5.2.dll obj\vc10\shared\dll_main.o obj\vc10\shared\fstream.o obj\vc10\shared\strstream.o obj\vc10\shared\sstream.o obj\vc10\shared\ios.o obj\vc10\shared\stdio_streambuf.o obj\vc10\shared\istream.o obj\vc10\shared\ostream.o obj\vc10\shared\iostream.o obj\vc10\shared\codecvt.o obj\vc10\shared\collate.o obj\vc10\shared\ctype.o obj\vc10\shared\monetary.o obj\vc10\shared\num_get.o obj\vc10\shared\num_put.o obj\vc10\shared\num_get_float.o obj\vc10\shared\num_put_float.o obj\vc10\shared\numpunct.o obj\vc10\shared\time_facets.o obj\vc10\shared\messages.o obj\vc10\shared\locale.o obj\vc10\shared\locale_impl.o obj\vc10\shared\locale_catalog.o obj\vc10\shared\facets_byname.o obj\vc10\shared\complex.o obj\vc10\shared\complex_io.o obj\vc10\shared\complex_trig.o obj\vc10\shared\string.o obj\vc10\shared\bitset.o obj\vc10\shared\allocators.o obj\vc10\shared\c_locale.o obj\vc10\shared\cxa.o obj\vc10\shared\stlport.res 
+   正在创建库 obj\vc10\shared\stlport_vc10.5.2.lib 和对象 obj\vc10\shared\stlport_vc10.5.2.exp
+正在生成代码
+已完成代码的生成
+	copy obj\vc10\shared\stlport_vc10.5.2.dll ..\..\bin\
+已复制         1 个文件。
+	copy obj\vc10\shared\stlport_vc10.5.2.pdb ..\..\bin\
+已复制         1 个文件。
+	copy obj\vc10\shared\stlport_vc10.5.2.lib ..\..\lib\
+已复制         1 个文件。
+	copy obj\vc10\shared\stlport_vc10.5.2.exp ..\..\lib\
+已复制         1 个文件。
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\dll_main.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\dll_main.cpp
+dll_main.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\fstream.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\fstream.cpp
+fstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\strstream.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\strstream.cpp
+strstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\sstream.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\sstream.cpp
+sstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\ios.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\ios.cpp
+ios.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\stdio_streambuf.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\stdio_streambuf.cpp
+stdio_streambuf.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\istream.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\istream.cpp
+istream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\ostream.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\ostream.cpp
+ostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\iostream.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\iostream.cpp
+iostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\codecvt.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\codecvt.cpp
+codecvt.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\collate.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\collate.cpp
+collate.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\ctype.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\ctype.cpp
+ctype.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\monetary.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\monetary.cpp
+monetary.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\num_get.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\num_get.cpp
+num_get.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\num_put.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\num_put.cpp
+num_put.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\num_get_float.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\num_get_float.cpp
+num_get_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\num_put_float.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\num_put_float.cpp
+num_put_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\numpunct.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\numpunct.cpp
+numpunct.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\time_facets.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\time_facets.cpp
+time_facets.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\messages.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\messages.cpp
+messages.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\locale.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\locale.cpp
+locale.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\locale_impl.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\locale_impl.cpp
+locale_impl.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\locale_catalog.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\locale_catalog.cpp
+locale_catalog.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\facets_byname.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\facets_byname.cpp
+facets_byname.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\complex.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\complex.cpp
+complex.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\complex_io.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\complex_io.cpp
+complex_io.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\complex_trig.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\complex_trig.cpp
+complex_trig.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\string.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\string.cpp
+string.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\bitset.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\bitset.cpp
+bitset.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\allocators.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\allocators.cpp
+allocators.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\c_locale.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\c_locale.c
+c_locale.c
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-g\cxa.o /Fdobj\vc10\shared-g\stlport_vc10d.5.2.pdb ../../src\cxa.c
+cxa.c
+	link /fixed:no /nologo /incremental:no /debug /pdb:obj\vc10\shared-g\stlport_vc10d.5.2.pdb  /dll  /version:5.2 /out:obj\vc10\shared-g\stlport_vc10d.5.2.dll obj\vc10\shared-g\dll_main.o obj\vc10\shared-g\fstream.o obj\vc10\shared-g\strstream.o obj\vc10\shared-g\sstream.o obj\vc10\shared-g\ios.o obj\vc10\shared-g\stdio_streambuf.o obj\vc10\shared-g\istream.o obj\vc10\shared-g\ostream.o obj\vc10\shared-g\iostream.o obj\vc10\shared-g\codecvt.o obj\vc10\shared-g\collate.o obj\vc10\shared-g\ctype.o obj\vc10\shared-g\monetary.o obj\vc10\shared-g\num_get.o obj\vc10\shared-g\num_put.o obj\vc10\shared-g\num_get_float.o obj\vc10\shared-g\num_put_float.o obj\vc10\shared-g\numpunct.o obj\vc10\shared-g\time_facets.o obj\vc10\shared-g\messages.o obj\vc10\shared-g\locale.o obj\vc10\shared-g\locale_impl.o obj\vc10\shared-g\locale_catalog.o obj\vc10\shared-g\facets_byname.o obj\vc10\shared-g\complex.o obj\vc10\shared-g\complex_io.o obj\vc10\shared-g\complex_trig.o obj\vc10\shared-g\string.o obj\vc10\shared-g\bitset.o obj\vc10\shared-g\allocators.o obj\vc10\shared-g\c_locale.o obj\vc10\shared-g\cxa.o obj\vc10\shared-g\stlport.res 
+   正在创建库 obj\vc10\shared-g\stlport_vc10d.5.2.lib 和对象 obj\vc10\shared-g\stlport_vc10d.5.2.exp
+	copy obj\vc10\shared-g\stlport_vc10d.5.2.dll ..\..\bin\
+已复制         1 个文件。
+	copy obj\vc10\shared-g\stlport_vc10d.5.2.pdb ..\..\bin\
+已复制         1 个文件。
+	copy obj\vc10\shared-g\stlport_vc10d.5.2.lib ..\..\lib\
+已复制         1 个文件。
+	copy obj\vc10\shared-g\stlport_vc10d.5.2.exp ..\..\lib\
+已复制         1 个文件。
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\dll_main.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\dll_main.cpp
+dll_main.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\fstream.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\fstream.cpp
+fstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\strstream.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\strstream.cpp
+strstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\sstream.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\sstream.cpp
+sstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\ios.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\ios.cpp
+ios.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\stdio_streambuf.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\stdio_streambuf.cpp
+stdio_streambuf.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\istream.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\istream.cpp
+istream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\ostream.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\ostream.cpp
+ostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\iostream.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\iostream.cpp
+iostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\codecvt.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\codecvt.cpp
+codecvt.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\collate.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\collate.cpp
+collate.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\ctype.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\ctype.cpp
+ctype.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\monetary.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\monetary.cpp
+monetary.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\num_get.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\num_get.cpp
+num_get.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\num_put.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\num_put.cpp
+num_put.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\num_get_float.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\num_get_float.cpp
+num_get_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\num_put_float.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\num_put_float.cpp
+num_put_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\numpunct.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\numpunct.cpp
+numpunct.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\time_facets.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\time_facets.cpp
+time_facets.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\messages.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\messages.cpp
+messages.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\locale.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\locale.cpp
+locale.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\locale_impl.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\locale_impl.cpp
+locale_impl.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\locale_catalog.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\locale_catalog.cpp
+locale_catalog.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\facets_byname.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\facets_byname.cpp
+facets_byname.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\complex.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\complex.cpp
+complex.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\complex_io.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\complex_io.cpp
+complex_io.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\complex_trig.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\complex_trig.cpp
+complex_trig.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\string.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\string.cpp
+string.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\bitset.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\bitset.cpp
+bitset.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\allocators.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\allocators.cpp
+allocators.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\c_locale.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\c_locale.c
+c_locale.c
+	cl /nologo /W4 /EHsc /Zm800  /MDd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\shared-stlg\cxa.o /Fdobj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ../../src\cxa.c
+cxa.c
+	link /fixed:no /nologo /incremental:no /debug /pdb:obj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb  /dll  /version:5.2 /out:obj\vc10\shared-stlg\stlport_vc10stld.5.2.dll obj\vc10\shared-stlg\dll_main.o obj\vc10\shared-stlg\fstream.o obj\vc10\shared-stlg\strstream.o obj\vc10\shared-stlg\sstream.o obj\vc10\shared-stlg\ios.o obj\vc10\shared-stlg\stdio_streambuf.o obj\vc10\shared-stlg\istream.o obj\vc10\shared-stlg\ostream.o obj\vc10\shared-stlg\iostream.o obj\vc10\shared-stlg\codecvt.o obj\vc10\shared-stlg\collate.o obj\vc10\shared-stlg\ctype.o obj\vc10\shared-stlg\monetary.o obj\vc10\shared-stlg\num_get.o obj\vc10\shared-stlg\num_put.o obj\vc10\shared-stlg\num_get_float.o obj\vc10\shared-stlg\num_put_float.o obj\vc10\shared-stlg\numpunct.o obj\vc10\shared-stlg\time_facets.o obj\vc10\shared-stlg\messages.o obj\vc10\shared-stlg\locale.o obj\vc10\shared-stlg\locale_impl.o obj\vc10\shared-stlg\locale_catalog.o obj\vc10\shared-stlg\facets_byname.o obj\vc10\shared-stlg\complex.o obj\vc10\shared-stlg\complex_io.o obj\vc10\shared-stlg\complex_trig.o obj\vc10\shared-stlg\string.o obj\vc10\shared-stlg\bitset.o obj\vc10\shared-stlg\allocators.o obj\vc10\shared-stlg\c_locale.o obj\vc10\shared-stlg\cxa.o obj\vc10\shared-stlg\stlport.res 
+   正在创建库 obj\vc10\shared-stlg\stlport_vc10stld.5.2.lib 和对象 obj\vc10\shared-stlg\stlport_vc10stld.5.2.exp
+	copy obj\vc10\shared-stlg\stlport_vc10stld.5.2.dll ..\..\bin\
+已复制         1 个文件。
+	copy obj\vc10\shared-stlg\stlport_vc10stld.5.2.pdb ..\..\bin\
+已复制         1 个文件。
+	copy obj\vc10\shared-stlg\stlport_vc10stld.5.2.lib ..\..\lib\
+已复制         1 个文件。
+	copy obj\vc10\shared-stlg\stlport_vc10stld.5.2.exp ..\..\lib\
+已复制         1 个文件。
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\dll_main.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\dll_main.cpp
+dll_main.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\fstream.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\fstream.cpp
+fstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\strstream.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\strstream.cpp
+strstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\sstream.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\sstream.cpp
+sstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\ios.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\ios.cpp
+ios.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\stdio_streambuf.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\stdio_streambuf.cpp
+stdio_streambuf.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\istream.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\istream.cpp
+istream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\ostream.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\ostream.cpp
+ostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\iostream.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\iostream.cpp
+iostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\codecvt.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\codecvt.cpp
+codecvt.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\collate.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\collate.cpp
+collate.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\ctype.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\ctype.cpp
+ctype.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\monetary.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\monetary.cpp
+monetary.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\num_get.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\num_get.cpp
+num_get.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\num_put.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\num_put.cpp
+num_put.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\num_get_float.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\num_get_float.cpp
+num_get_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\num_put_float.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\num_put_float.cpp
+num_put_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\numpunct.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\numpunct.cpp
+numpunct.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\time_facets.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\time_facets.cpp
+time_facets.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\messages.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\messages.cpp
+messages.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\locale.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\locale.cpp
+locale.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\locale_impl.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\locale_impl.cpp
+locale_impl.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\locale_catalog.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\locale_catalog.cpp
+locale_catalog.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\facets_byname.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\facets_byname.cpp
+facets_byname.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\complex.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\complex.cpp
+complex.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\complex_io.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\complex_io.cpp
+complex_io.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\complex_trig.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\complex_trig.cpp
+complex_trig.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\string.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\string.cpp
+string.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\bitset.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\bitset.cpp
+bitset.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\allocators.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\allocators.cpp
+allocators.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\c_locale.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\c_locale.c
+c_locale.c
+	cl /nologo /W4 /EHsc /Zm800  /MT /Zi /O2  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /DNDEBUG  /I../../stlport  /c /Foobj\vc10\static\cxa.o /Fdobj\vc10\static\stlport_vc10_static.pdb ../../src\cxa.c
+cxa.c
+	lib /nologo  /out:obj\vc10\static\stlport_vc10_static.lib obj\vc10\static\dll_main.o obj\vc10\static\fstream.o obj\vc10\static\strstream.o obj\vc10\static\sstream.o obj\vc10\static\ios.o obj\vc10\static\stdio_streambuf.o obj\vc10\static\istream.o obj\vc10\static\ostream.o obj\vc10\static\iostream.o obj\vc10\static\codecvt.o obj\vc10\static\collate.o obj\vc10\static\ctype.o obj\vc10\static\monetary.o obj\vc10\static\num_get.o obj\vc10\static\num_put.o obj\vc10\static\num_get_float.o obj\vc10\static\num_put_float.o obj\vc10\static\numpunct.o obj\vc10\static\time_facets.o obj\vc10\static\messages.o obj\vc10\static\locale.o obj\vc10\static\locale_impl.o obj\vc10\static\locale_catalog.o obj\vc10\static\facets_byname.o obj\vc10\static\complex.o obj\vc10\static\complex_io.o obj\vc10\static\complex_trig.o obj\vc10\static\string.o obj\vc10\static\bitset.o obj\vc10\static\allocators.o obj\vc10\static\c_locale.o obj\vc10\static\cxa.o
+	copy obj\vc10\static\stlport_vc10_static.lib ..\..\lib\
+已复制         1 个文件。
+已复制         1 个文件。
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\dll_main.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\dll_main.cpp
+dll_main.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\fstream.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\fstream.cpp
+fstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\strstream.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\strstream.cpp
+strstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\sstream.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\sstream.cpp
+sstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\ios.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\ios.cpp
+ios.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\stdio_streambuf.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\stdio_streambuf.cpp
+stdio_streambuf.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\istream.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\istream.cpp
+istream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\ostream.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\ostream.cpp
+ostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\iostream.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\iostream.cpp
+iostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\codecvt.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\codecvt.cpp
+codecvt.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\collate.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\collate.cpp
+collate.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\ctype.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\ctype.cpp
+ctype.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\monetary.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\monetary.cpp
+monetary.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\num_get.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\num_get.cpp
+num_get.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\num_put.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\num_put.cpp
+num_put.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\num_get_float.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\num_get_float.cpp
+num_get_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\num_put_float.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\num_put_float.cpp
+num_put_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\numpunct.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\numpunct.cpp
+numpunct.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\time_facets.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\time_facets.cpp
+time_facets.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\messages.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\messages.cpp
+messages.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\locale.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\locale.cpp
+locale.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\locale_impl.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\locale_impl.cpp
+locale_impl.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\locale_catalog.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\locale_catalog.cpp
+locale_catalog.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\facets_byname.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\facets_byname.cpp
+facets_byname.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\complex.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\complex.cpp
+complex.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\complex_io.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\complex_io.cpp
+complex_io.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\complex_trig.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\complex_trig.cpp
+complex_trig.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\string.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\string.cpp
+string.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\bitset.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\bitset.cpp
+bitset.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\allocators.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\allocators.cpp
+allocators.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\c_locale.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\c_locale.c
+c_locale.c
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501  /DWIN32 /D_WINDOWS /D_DEBUG  /I../../stlport  /c /Foobj\vc10\static-g\cxa.o /Fdobj\vc10\static-g\stlport_vc10d_static.pdb ../../src\cxa.c
+cxa.c
+	lib /nologo  /out:obj\vc10\static-g\stlport_vc10d_static.lib obj\vc10\static-g\dll_main.o obj\vc10\static-g\fstream.o obj\vc10\static-g\strstream.o obj\vc10\static-g\sstream.o obj\vc10\static-g\ios.o obj\vc10\static-g\stdio_streambuf.o obj\vc10\static-g\istream.o obj\vc10\static-g\ostream.o obj\vc10\static-g\iostream.o obj\vc10\static-g\codecvt.o obj\vc10\static-g\collate.o obj\vc10\static-g\ctype.o obj\vc10\static-g\monetary.o obj\vc10\static-g\num_get.o obj\vc10\static-g\num_put.o obj\vc10\static-g\num_get_float.o obj\vc10\static-g\num_put_float.o obj\vc10\static-g\numpunct.o obj\vc10\static-g\time_facets.o obj\vc10\static-g\messages.o obj\vc10\static-g\locale.o obj\vc10\static-g\locale_impl.o obj\vc10\static-g\locale_catalog.o obj\vc10\static-g\facets_byname.o obj\vc10\static-g\complex.o obj\vc10\static-g\complex_io.o obj\vc10\static-g\complex_trig.o obj\vc10\static-g\string.o obj\vc10\static-g\bitset.o obj\vc10\static-g\allocators.o obj\vc10\static-g\c_locale.o obj\vc10\static-g\cxa.o
+	copy obj\vc10\static-g\stlport_vc10d_static.lib ..\..\lib\
+已复制         1 个文件。
+已复制         1 个文件。
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\dll_main.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\dll_main.cpp
+dll_main.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\fstream.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\fstream.cpp
+fstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\strstream.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\strstream.cpp
+strstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\sstream.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\sstream.cpp
+sstream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\ios.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\ios.cpp
+ios.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\stdio_streambuf.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\stdio_streambuf.cpp
+stdio_streambuf.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\istream.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\istream.cpp
+istream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\ostream.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\ostream.cpp
+ostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\iostream.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\iostream.cpp
+iostream.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\codecvt.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\codecvt.cpp
+codecvt.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\collate.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\collate.cpp
+collate.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\ctype.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\ctype.cpp
+ctype.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\monetary.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\monetary.cpp
+monetary.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\num_get.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\num_get.cpp
+num_get.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\num_put.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\num_put.cpp
+num_put.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\num_get_float.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\num_get_float.cpp
+num_get_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\num_put_float.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\num_put_float.cpp
+num_put_float.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\numpunct.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\numpunct.cpp
+numpunct.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\time_facets.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\time_facets.cpp
+time_facets.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\messages.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\messages.cpp
+messages.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\locale.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\locale.cpp
+locale.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\locale_impl.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\locale_impl.cpp
+locale_impl.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\locale_catalog.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\locale_catalog.cpp
+locale_catalog.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\facets_byname.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\facets_byname.cpp
+facets_byname.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\complex.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\complex.cpp
+complex.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\complex_io.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\complex_io.cpp
+complex_io.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\complex_trig.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\complex_trig.cpp
+complex_trig.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\string.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\string.cpp
+string.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\bitset.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\bitset.cpp
+bitset.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\allocators.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\allocators.cpp
+allocators.cpp
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\c_locale.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\c_locale.c
+c_locale.c
+	cl /nologo /W4 /EHsc /Zm800  /MTd /Zi  /DWINVER=0x0501 /GS /DWIN32 /D_WINDOWS /D_DEBUG /D_STLP_DEBUG  /I../../stlport  /c /Foobj\vc10\static-stlg\cxa.o /Fdobj\vc10\static-stlg\stlport_vc10stld_static.pdb ../../src\cxa.c
+cxa.c
+	lib /nologo  /out:obj\vc10\static-stlg\stlport_vc10stld_static.lib obj\vc10\static-stlg\dll_main.o obj\vc10\static-stlg\fstream.o obj\vc10\static-stlg\strstream.o obj\vc10\static-stlg\sstream.o obj\vc10\static-stlg\ios.o obj\vc10\static-stlg\stdio_streambuf.o obj\vc10\static-stlg\istream.o obj\vc10\static-stlg\ostream.o obj\vc10\static-stlg\iostream.o obj\vc10\static-stlg\codecvt.o obj\vc10\static-stlg\collate.o obj\vc10\static-stlg\ctype.o obj\vc10\static-stlg\monetary.o obj\vc10\static-stlg\num_get.o obj\vc10\static-stlg\num_put.o obj\vc10\static-stlg\num_get_float.o obj\vc10\static-stlg\num_put_float.o obj\vc10\static-stlg\numpunct.o obj\vc10\static-stlg\time_facets.o obj\vc10\static-stlg\messages.o obj\vc10\static-stlg\locale.o obj\vc10\static-stlg\locale_impl.o obj\vc10\static-stlg\locale_catalog.o obj\vc10\static-stlg\facets_byname.o obj\vc10\static-stlg\complex.o obj\vc10\static-stlg\complex_io.o obj\vc10\static-stlg\complex_trig.o obj\vc10\static-stlg\string.o obj\vc10\static-stlg\bitset.o obj\vc10\static-stlg\allocators.o obj\vc10\static-stlg\c_locale.o obj\vc10\static-stlg\cxa.o
+	copy obj\vc10\static-stlg\stlport_vc10stld_static.lib ..\..\lib\
+已复制         1 个文件。
+已复制         1 个文件。
