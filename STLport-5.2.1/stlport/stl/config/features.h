@@ -83,7 +83,7 @@
 #endif
 
 /* ========================================================= */
-/* This file is used for compatibility; it accepts old-style config
+/* This file is used for compatibilityºÊ»›–‘; it accepts old-style config
    switches */
 #include <stl/config/compat.h>
 

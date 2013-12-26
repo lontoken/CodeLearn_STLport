@@ -1,6 +1,10 @@
 #ifndef STLPORT_PREFIX_H
 #define STLPORT_PREFIX_H
 
+
+//..lontoken for vs
+# pragma warning( disable : 4819)
+
 #define __BUILDING_STLPORT 1
 
 #if defined (_WIN32) || defined (WIN32)

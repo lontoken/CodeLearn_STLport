@@ -52,6 +52,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;STLPORT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../src;../../stlport</AdditionalIncludeDirectories>
+      <PreprocessToFile>true</PreprocessToFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -119,6 +120,53 @@
     <ClInclude Include="..\..\stlport\stl\boost_type_traits.h" />
     <ClInclude Include="..\..\stlport\stl\char_traits.h" />
     <ClInclude Include="..\..\stlport\stl\concept_checks.h" />
+    <ClInclude Include="..\..\stlport\stl\config\compat.h" />
+    <ClInclude Include="..\..\stlport\stl\config\features.h" />
+    <ClInclude Include="..\..\stlport\stl\config\host.h" />
+    <ClInclude Include="..\..\stlport\stl\config\stl_confix.h" />
+    <ClInclude Include="..\..\stlport\stl\config\stl_mycomp.h" />
+    <ClInclude Include="..\..\stlport\stl\config\user_config.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_aix.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_apcc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_apple.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_as400.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_auto_link.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_bc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_como.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_cray.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_cygwin.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_dec.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_dec_vms.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_detect_dll_or_lib.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_dm.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_epilog.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_evc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_feedback.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_freebsd.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_fujitsu.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_gcc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_hpacc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_hpux.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_ibm.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_icc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_intel.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_kai.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_linux.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_mac.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_macosx.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_mlc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_msvc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_mwerks.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_native_headers.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_openbsd.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_prolog.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_sgi.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_solaris.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_sunprocc.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_system.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_warnings_off.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_watcom.h" />
+    <ClInclude Include="..\..\stlport\stl\config\_windows.h" />
     <ClInclude Include="..\..\stlport\stl\c_locale.h" />
     <ClInclude Include="..\..\stlport\stl\msl_string.h" />
     <ClInclude Include="..\..\stlport\stl\type_manips.h" />
@@ -274,6 +322,7 @@
     <ClCompile Include="..\..\src\string.cpp" />
     <ClCompile Include="..\..\src\strstream.cpp" />
     <ClCompile Include="..\..\src\time_facets.cpp" />
+    <ClCompile Include="stlport_prefix_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

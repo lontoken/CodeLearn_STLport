@@ -16,13 +16,13 @@
  */
 
 // The header <exception> contains low-level functions that interact
-// with a compiler's exception-handling mechanism.  It is assumed to
+// with a compiler's exception-handling mechanism机制.  It is assumed to
 // be supplied with the compiler, rather than with the library, because
 // it is inherently tied very closely to the compiler itself.
 
 // On platforms where <exception> does not exist, this header defines
-// an exception base class.  This is *not* a substitute for everything
-// in <exception>, but it suffices to support a bare minimum of STL
+// an exception base class.  This is *not* a substitute替代品 for everything
+// in <exception>, but it suffices足够 to support a bare空的 minimum of STL
 // functionality.
 
 #ifndef _STLP_INTERNAL_EXCEPTION

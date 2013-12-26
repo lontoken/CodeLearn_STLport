@@ -20,6 +20,79 @@
  *
  */
 
+/*include file list:
+src\\stlport_prefix.h
+    src\\warning_disable.h
+    stlport\\stl\\config\\features.h
+    stlport\\stl\\_stlport_version.h
+    stlport\\stl\\config\\user_config.h
+    stlport\\stl\\config\\compat.h
+    stlport\\stl\\config\\host.h
+    stlport\\stl\\config\\_system.h
+    stlport\\stl\\config\\_msvc.h
+    stlport\\stl\\config\\_detect_dll_or_lib.h
+    stlport\\stl\\config\\_auto_link.h
+    stlport\\stl\\config\\_feedback.h
+    stlport\\stl\\config\\_windows.h
+    stlport\\stl\\config\\_native_headers.h
+    stlport\\stdarg.h
+    stlport\\ctype.h
+    stlport\\string.h
+    stlport\\stl\\config\\stl_confix.h
+    src\\stlport_prefix.h
+    stlport\\ctime
+    stlport\\stl\\_prolog.h
+    stlport\\stl\\_cprolog.h
+    stlport\\stl\\config\\_prolog.h
+    stlport\\stl\\config\\_warnings_off.h
+    stlport\\stl\\debug\\_debug.h
+    stlport\\stl\\_ctime.h
+    stlport\\time.h
+    stlport\\stl\\_epilog.h
+    stlport\\stl\\config\\_epilog.h
+    stlport\\stl\\_config_compat_post.h
+
+stlport\\memory
+    stlport\\stl\\_alloc.h
+    stlport\\stl\\_cstddef.h
+    stlport\\stddef.h
+    stlport\\errno.h
+    stlport\\stl\\_cstdlib.h
+    stlport\\stdlib.h
+    stlport\\limits.h
+    stlport\\stl\\_cmath.h
+    stlport\\math.h
+    stlport\\stl\\_cstring.h
+    stlport\\string.h
+    stlport\\using\\cstring
+    stlport\\stl\\_cstring.h
+    stlport\\stl\\_algobase.h
+    stlport\\climits
+    stlport\\limits.h
+    stlport\\stl\\_pair.h
+    stlport\\stl\\type_traits.h
+    stlport\\stl\\type_manips.h
+    stlport\\stl\\_move_construct_fwk.h
+    stlport\\stl\\_iterator_base.h
+    stlport\\stl\\_ptrs_specialize.h
+    stlport\\stl\\_function_base.h
+    stlport\\stl\\_iterator.h
+    stlport\\stl\\_new.h
+    stlport\\exception
+    stlport\\cstddef
+    stlport\\stl\\_construct.h
+    stlport\\stl\\_tempbuf.h
+    stlport\\stl\\_uninitialized.h
+    stlport\\stl\\_raw_storage_iter.h
+    stlport\\stl\\_auto_ptr.h
+
+stlport\\stl\\_threads.h
+    stlport\\stl\\_threads.c
+
+src\\lock_free_slist.h
+*/
+
+
 #include "stlport_prefix.h"
 
 #include <memory>
