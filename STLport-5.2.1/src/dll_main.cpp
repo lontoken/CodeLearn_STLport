@@ -30,7 +30,7 @@
 #if !defined (_STLP_DEBUG) && ! defined (_STLP_ASSERTIONS)
 #  if !defined (__APPLE__) || !defined (__GNUC__) || (__GNUC__ < 3) || ((__GNUC__ == 3) && (__GNUC_MINOR__ < 3))
 /* dums: Please if the following code was being uncommented please explain why
- * as for the moment it only looks like a source of inconsistency in the way
+ * as for the moment it only looks like a source of inconsistency²»Ò»ÖÂ in the way
  * STLport different translation units are compiled.
  */
 //#    define _STLP_ASSERTIONS 1

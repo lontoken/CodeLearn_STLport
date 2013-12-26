@@ -10,7 +10,7 @@ To use STLport iostreams, locale and complex numbers, you have to build STLport
 library from sources in "build/lib" directory and link your programs with it.
 
 Starting with 5.0 the 'wrapper' mode is not supported anymore. You cannot use native
-compiler iostreams implementation with STLport STL (see doc/FAQ for explanations).
+compiler iostreams implementation with STLport STL (see doc/FAQ for explanations解释).
 Now you have to choose between STLport iostreams or no iostreams.
 
 ==== Unpacking and installing STLport ==========
@@ -39,8 +39,8 @@ Now you have to choose between STLport iostreams or no iostreams.
     configure --help
 
     Depending on your environment, Windows command shell or Unix like shell,
-    configure.bat or configure script will be run respectively. For Windows users
-    running configure script is mandatory in order to declare the compiler you are
+    configure.bat or configure script will be run respectively分别的. For Windows users
+    running configure script is mandatory强制的 in order to declare the compiler you are
     going to use.
 
 5)  Go to "build/lib" subdirectory. It contains various makefiles for different
@@ -159,7 +159,7 @@ build process description, for a more detailed one check README files in the doc
    upon platform/compiler. See compiler's and linker's options on command line when you build
    unit tests (build/test/unit) for reference. The last is useful for ANY platform.
 
-11) Don't hesitate to read READMEs (doc/README*, build/lib/README*, build/test/unit/README*)
+11) Don't hesitate犹豫 to read READMEs (doc/README*, build/lib/README*, build/test/unit/README*)
    and doc/FAQ.
 
 12) Have fun!

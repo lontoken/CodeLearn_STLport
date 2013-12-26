@@ -1,7 +1,7 @@
 setup VC9 for CE:
 ------------------
 
-- VC9 doesn't have any setup batchfiles that prepare the environment for compiling
+- VC9 doesn't have any setup batchfiles批处理文件 that prepare the environment for compiling
 with CE. You can take those from eVC4 and adapt them or write your own. This snippet
 should get you going:
 

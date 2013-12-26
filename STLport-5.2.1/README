@@ -12,7 +12,7 @@ INSTALL          - installation instructions
 
 bin              - installation directory for STLport unit tests;
                    it may contain more subdirs, if you use
-                   crosscompilation
+                   crosscompilation交叉编译
 build/lib        - build directory for STLport library (if you use
                    STLport iostreams and/or locale only)
 build/test/unit  - build directory for regression (unit) tests

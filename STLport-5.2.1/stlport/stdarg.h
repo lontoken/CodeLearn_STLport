@@ -14,7 +14,7 @@
  */
 
 /* Workaround for a "misbehaviour" when compiling resource scripts using
- * eMbedded Visual C++. The standard .rc file includes windows header files,
+ * eMbedded嵌入式 Visual C++. The standard标准 .rc file includes windows header files,
  * which in turn include stdarg.h, which results in warnings and errors
  */
 #if !defined (RC_INVOKED)
