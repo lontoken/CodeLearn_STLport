@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B940BA8F-0104-4E6B-8480-942823F136E4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>stlport</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_vc10d.5.2</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;STLPORT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../src;../../stlport</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../src;../../stlport;../../../stlport</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;STLPORT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\acquire_release.h" />
+    <ClInclude Include="..\..\src\aligned_buffer.h" />
+    <ClInclude Include="..\..\src\c_locale.h" />
+    <ClInclude Include="..\..\src\locale_impl.h" />
+    <ClInclude Include="..\..\src\lock_free_slist.h" />
+    <ClInclude Include="..\..\src\message_facets.h" />
+    <ClInclude Include="..\..\src\stdio_streambuf.h" />
+    <ClInclude Include="..\..\src\stlport_prefix.h" />
+    <ClInclude Include="..\..\src\warning_disable.h" />
+    <ClInclude Include="..\..\src\_stdio_file.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\allocators.cpp" />
+    <ClCompile Include="..\..\src\bitset.cpp" />
+    <ClCompile Include="..\..\src\codecvt.cpp" />
+    <ClCompile Include="..\..\src\collate.cpp" />
+    <ClCompile Include="..\..\src\complex.cpp" />
+    <ClCompile Include="..\..\src\complex_io.cpp" />
+    <ClCompile Include="..\..\src\complex_trig.cpp" />
+    <ClCompile Include="..\..\src\ctype.cpp" />
+    <ClCompile Include="..\..\src\cxa.c" />
+    <ClCompile Include="..\..\src\c_locale.c" />
+    <ClCompile Include="..\..\src\dll_main.cpp" />
+    <ClCompile Include="..\..\src\facets_byname.cpp" />
+    <ClCompile Include="..\..\src\fstream.cpp" />
+    <ClCompile Include="..\..\src\ios.cpp" />
+    <ClCompile Include="..\..\src\iostream.cpp" />
+    <ClCompile Include="..\..\src\istream.cpp" />
+    <ClCompile Include="..\..\src\locale.cpp" />
+    <ClCompile Include="..\..\src\locale_catalog.cpp" />
+    <ClCompile Include="..\..\src\locale_impl.cpp" />
+    <ClCompile Include="..\..\src\messages.cpp" />
+    <ClCompile Include="..\..\src\monetary.cpp" />
+    <ClCompile Include="..\..\src\numpunct.cpp" />
+    <ClCompile Include="..\..\src\num_get.cpp" />
+    <ClCompile Include="..\..\src\num_get_float.cpp" />
+    <ClCompile Include="..\..\src\num_put.cpp" />
+    <ClCompile Include="..\..\src\num_put_float.cpp" />
+    <ClCompile Include="..\..\src\ostream.cpp" />
+    <ClCompile Include="..\..\src\sstream.cpp" />
+    <ClCompile Include="..\..\src\stdio_streambuf.cpp" />
+    <ClCompile Include="..\..\src\string.cpp" />
+    <ClCompile Include="..\..\src\strstream.cpp" />
+    <ClCompile Include="..\..\src\time_facets.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
