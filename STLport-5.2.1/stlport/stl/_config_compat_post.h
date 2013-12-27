@@ -34,7 +34,7 @@
 /* 5.0 -> 4.6 compatibility section */
 #if 1 /* def _STLP_46_COMPATIBILITY */
 
-/* provide a uniform way to access full functionality */
+/* provide a uniform way to access full functionality¹¦ÄÜ */
 # define __slist__         slist
 # define __map__           map
 # define __multimap__      multimap
