@@ -124,6 +124,7 @@ class basic_string : _STLP_PRIVATE _STLP_PRIV _String_base<_CharT,_Alloc>
 #endif
 {
 _STLP_PRIVATE:                        // Private members inherited from base.
+  //将父类和自身的类型声明为自己的成员
   typedef _STLP_PRIV _String_base<_CharT,_Alloc> _Base;
   typedef basic_string<_CharT, _Traits, _Alloc> _Self;
 
@@ -142,8 +143,10 @@ public:
   typedef const value_type* const_iterator;
   typedef value_type*       iterator;
 
+  //声明 reverse_iterator
   _STLP_DECLARE_RANDOM_ACCESS_REVERSE_ITERATORS;
 
+  //声明 npos
 #include <stl/_string_npos.h>
 
   typedef _STLP_PRIV _String_reserve_t _Reserve_t;
@@ -304,11 +307,13 @@ _STLP_PRIVATE:
     if (__n > max_size() - __size)
       this->_M_throw_length_error();
     size_type __len = __size + (max)(__n, __size) + 1;
+    //考虑到overflow，所以加了__len < __size判断
     if (__len > max_size() || __len < __size)
       __len = max_size(); // overflow
     return __len;
   }
 
+  //根据_InputIter的性质确定初始化的方法
   template <class _InputIter>
   void _M_range_initialize(_InputIter __f, _InputIter __l,
                            const input_iterator_tag &__tag) {
@@ -428,12 +433,13 @@ public:
   bool empty() const { return this->_M_Start() == this->_M_Finish(); }
 
 public:                         // Element access.
-
+  //[]运算没有做下标检查
   const_reference operator[](size_type __n) const
   { return *(this->_M_Start() + __n); }
   reference operator[](size_type __n)
   { return *(this->_M_Start() + __n); }
 
+  //可能会抛出out_of_range异常
   const_reference at(size_type __n) const {
     if (__n >= size())
       this->_M_throw_out_of_range();

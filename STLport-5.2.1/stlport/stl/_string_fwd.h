@@ -26,6 +26,7 @@
 _STLP_BEGIN_NAMESPACE
 
 #if !defined (_STLP_LIMITED_DEFAULT_TEMPLATES)
+//vs2010 об
 template <class _CharT,
           class _Traits = char_traits<_CharT>,
           class _Alloc = allocator<_CharT> >

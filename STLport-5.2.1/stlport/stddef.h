@@ -22,7 +22,7 @@
 
 #if defined (_MSC_VER) || defined (__DMC__)
 /* Native stddef.h contains errno macro definition making inclusion of native
- * errno.h in STLport errno.h impossible. We are then forced to include errno.h
+ * errno.h in STLport errno.h impossible²»¿ÉÄÜ. We are then forced to include errno.h
  * first.
  */
 #  include "errno.h"
